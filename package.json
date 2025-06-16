@@ -26,6 +26,8 @@
     "react-day-picker": "^9.7.0",
     "react-dom": "^19.0.0",
     "react-hook-form": "^7.57.0",
+    "sass": "^1.89.2",
+    "scss": "^0.2.4",
     "sonner": "^2.0.5",
     "tailwind-variants": "^1.0.0"
   },

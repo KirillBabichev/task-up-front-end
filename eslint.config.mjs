@@ -19,7 +19,7 @@ export default defineConfig([
       "plugin:import/errors",
       "plugin:import/warnings",
       "plugin:import/typescript",
-    "plugin:prettier/recommended"
+      "plugin:prettier/recommended"
   ],
   rules: {
     'prettier/prettier': ['warn'],
