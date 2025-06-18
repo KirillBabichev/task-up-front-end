@@ -1,10 +1,9 @@
-import { COLORS } from '@/app/constants/color.constants'
 import type { Config } from 'tailwindcss'
 
 
 const config: Config = {
     darkMode: 'class',
-    // mode: 'jit',
+    mode: 'jit',
     content: [
         './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
         './src/components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -12,7 +11,6 @@ const config: Config = {
     ],
     theme: {
         extend: {
-            colors: COLORS,
             spacing: {
                 0.5: '0.12rem',
                 layout: '1.4rem',
@@ -175,6 +173,11 @@ const config: Config = {
             '4xl-max': { max: '1850px' }
         },
         colors: {
+            primary: '#7551FF',
+            secondary: '#F97912',
+            border: 'rgba(255,255,255,.12)',
+            sidebar: '#141515',
+            bg: '#0E0F0F',
             white: '#ffffff',
             lightPrimary: '#F4F7FE',
             blueSecondary: '#4318FF',
