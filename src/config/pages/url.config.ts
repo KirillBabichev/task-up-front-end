@@ -6,7 +6,7 @@ class DASHBOARD {
     HABITS = `${this.root}/habits`
     TIMER = `${this.root}/timer`
     TIME_BLOCKING = `${this.root}/time-blocking`
-    SETTING = `${this.root}/setting`
+    SETTINGS = `${this.root}/settings`
 }
 
-export const DASHBOARD_PAGES = new DASHBOARD()
+export const DASHBOARD_PAGES = new DASHBOARD();
