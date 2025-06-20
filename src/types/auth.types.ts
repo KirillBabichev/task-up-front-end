@@ -10,7 +10,7 @@ export type TUser = {
 
     workInterval?: number;
     breakInterval?: number;
-    intervalCount?: number;
+    intervalsCount?: number;
 }
 
 export type TAuthResponse = {
