@@ -19,7 +19,7 @@ export const DashboardSidebar = () => {
 						size={38}
 					/>
 					<span className="text-2xl font-bold relative">
-						Tack Up
+						Task Up
 						<span className="absolute -top-1 -right-6 text-xs opacity-40 rotate-[18deg] font-normal">
 							pet project
 						</span>

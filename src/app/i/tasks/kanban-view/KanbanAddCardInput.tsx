@@ -1,19 +1,17 @@
 import { type Dispatch, type SetStateAction } from 'react';
 
-import { ITaskResponse } from '@/types/task.types';
+import type { ITaskResponse } from '@/types/task.types';
 
-import styles from './ListView.module.scss';
-
-type TListAddRowInputProps = {
+type TKanbanAddCardInputProps = {
 	filterDate?: string;
 	setItems: Dispatch<SetStateAction<ITaskResponse[] | undefined>>;
 };
 
-export const ListAddRowInput = ({
+export const KanbanAddCardInput = ({
 	setItems,
 	filterDate,
-}: TListAddRowInputProps) => {
-	const addRow = () => {
+}: TKanbanAddCardInputProps) => {
+	const addCard = () => {
 		setItems((prev) => {
 			if (!prev) return;
 
@@ -30,9 +28,9 @@ export const ListAddRowInput = ({
 	};
 
 	return (
-		<div className={styles.addRow}>
+		<div className="mt-5">
 			<button
-				onClick={addRow}
+				onClick={addCard}
 				className="italic opacity-40 text-sm"
 			>
 				+ Add task
